@@ -23,7 +23,7 @@
 export default {
   name: "Header",
   data: () => ({
-    open: true,
+    open: false,
   }),
   computed: {
     classes() {
