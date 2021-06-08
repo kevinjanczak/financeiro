@@ -23,6 +23,10 @@ export default {
     box-sizing: border-box;
   }
 
+  #app {
+    width: 100vw;
+  }
+
   body, input, textarea {
     font-family: Poppins, Arial, sans-serif;
   }

@@ -1,6 +1,6 @@
 <template>
   <div v-if="show" class="modal">
-    <div class="modal-dialog" :style="{ width: width || '400px' }">
+    <div class="modal-dialog" :style="{ width: width || '300px' }">
       <div class="modal-header">
         <h3>{{title}}</h3>
         <a @click="$emit('toggle')" class="close-modal" href="javascript:void(0)">

@@ -42,6 +42,8 @@ export default {
 
 <style lang="scss">
     .table-container {
+        overflow-y: auto;
+        white-space: nowrap;
         .table {
             width: 100%;
             &, td, th {
